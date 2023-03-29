@@ -1,0 +1,357 @@
+/* 메인 슬라이드 */
+
+.container{}
+
+.sc-slide{
+    height: calc(100vh - 140px);
+    min-height: 400px;
+}
+
+
+.sc-slide .swiper {
+    height: 100%;
+}
+.sc-slide .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sc-slide .swiper-slide a{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sc-slide .swiper-slide .img-box{
+    height: 100%;
+}
+.sc-slide .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc-slide .swiper .swiper-pagination{
+    width: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
+.sc-slide .swiper .swiper-pagination-bullet{
+    margin: 0;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    border-radius: 0;
+
+}
+.sc-slide .swiper .swiper-pagination-bullet-active{}
+
+
+.sc-slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sc-slide .swiper-slide .txt-box {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    padding:90px 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+}
+.sc-slide .swiper-slide .txt-box .title {
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.25;
+    letter-spacing: -1.3px;
+    font-size: 30px;
+}
+.sc-slide .swiper-slide .txt-box .desc {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin: 0;
+}
+
+
+/* BEST */
+
+.headline {
+    font-size: 20px;
+    line-height: 29px;
+    color: #333;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+}
+
+
+
+
+.sc-product {}
+.sc-product .headline { padding: 50px 16px 22px; }
+.sc-product .link-more { display: block; padding: 0 38px; margin: 0 38px; margin-bottom: 45px; height: 52px; line-height: 52px; border: 1px solid #e0e0e0; background: #fff; color: #222; font-size: 15px; font-weight: 500; text-align: center; }
+.sc-product .btn-more::after { display: inline-block; width: 19px; height: 19px; background: url(../images/arrow-go.png) no-repeat; background-size: cover; content: ''; }
+
+
+
+
+
+/* event */
+
+.sc-event { margin: 20px 0; }
+.sc-event img { width: 100%; }
+
+/* recommend */
+
+.sc-recommend {
+}
+.sc-recommend .group-recommend+.group-recommend {
+    padding-top: 40px;
+}
+.sc-recommend .group-recommend{
+}
+.sc-recommend .intro-wrap {
+}
+.sc-recommend .intro-wrap .img-box{
+}
+
+.sc-recommend .intro-wrap .img-box img{
+    width: 100%;
+}
+.sc-recommend .intro-wrap .txt-box{
+    display: block;
+    padding: 20px 16px 20px;
+    position: relative;
+}
+.sc-recommend .intro-wrap .txt-box .title{ 
+    font-size: 26px;
+    line-height: 35px;
+    color: #333;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+}
+.sc-recommend .intro-wrap .txt-box .desc{
+    padding: 14px 0 28px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #333;
+    font-weight: 400;
+}
+.sc-recommend .intro-wrap .btn-go {
+    display: inline-block;
+    background: #1e1e1e;
+    border-radius: 2px;
+    border: 1px solid #1e1e1e;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 16px;
+    padding: 8px 47px 8px 18px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    background-image: url(../images/arrow-move.png);
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: calc(100% - 18px) center;
+}
+
+
+
+/* NEW */
+
+.sc-new {
+    width: 100%;
+}
+.sc-new .headline {
+    padding: 50px 16px 22px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+
+.sc-new .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sc-new .product-list .product-item {
+    width: calc(50% - 5px);
+    padding-bottom: 50px;
+}
+
+.sc-new .btn-more {
+    display: block;
+    margin: 0 38px;
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin-bottom: 65px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    height: 52px;
+    background: #fff;
+    font-weight: 500;
+    line-height: 52px;
+    font-size: 15px;
+    color: #222;
+    position: relative;
+}
+
+.sc-new .btn-more::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 7px);
+    width: 19px;
+    height: 19px;
+    z-index: 10;
+    background: url(../images/arrow-go.png) no-repeat;
+    background-size: cover;
+}
+
+/* 브랜드 스토리 */
+
+.sc-story {
+    padding: 20px 0;
+}
+.sc-story .group-story{
+    display: block;
+    padding: 56px 20px;
+    background: #c86733;
+}
+.sc-story .group-story .headline{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin: 0 auto 10px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 5px;
+    line-height: 1.2;
+}
+.sc-story .group-story .title{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 700;
+}
+.sc-story .group-story p{
+    padding: 10px 0 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+.sc-story .group-story .btn-more{
+    display: inline-block;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font: 12px;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+/* 상품 - 레깅스, 브라탑, 세트 */
+
+/* 레깅스 */
+.sc-category { position: relative; }
+.sc-category .headline { padding: 30px 0; margin-left: 20px; }
+.sc-category .product {
+    padding: 0 20px;
+}
+.sc-category .link-more {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    right: 5%;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.sc-category .link-more::after {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 11px;
+    margin-left: 3px;
+    background-image: url(../images/arrow-move-gray.png);
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: center;
+
+}
+
+
+/* 안다르 멤버십 */
+
+.sc-info.membership {margin-top: 70px;}
+.sc-info.membership a {
+    display: block;
+    background: url(../images/membership/download.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 65px 20px;
+}
+.sc-info.store {margin-top: 10px;}
+.sc-info.store a {
+    display: block;
+    background: url(../images/store/download.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 65px 20px;
+}
+.sc-info .headline{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.sc-info .info{
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 15px 0 30px;
+}
+.sc-info .btn-more{
+    border: 1px solid #fff;
+    padding: 7px 25px 8px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
