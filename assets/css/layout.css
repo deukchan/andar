@@ -516,7 +516,8 @@
 .popup-search .search-inner .btn-submit{
     position: absolute;
     right: 0;
-    top: 50%;
+    /* top: 50%; */
+    top: 0;
     width: 19px;
     height: 19px;
     margin-top: -9px;
