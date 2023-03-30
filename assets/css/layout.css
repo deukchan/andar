@@ -494,7 +494,9 @@
     border-bottom: 2px solid #fff;
 }
 .popup-search .search-inner fieldset {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .popup-search .search-inner .input-text{
     height: 43px;
@@ -514,13 +516,8 @@
     letter-spacing: -0.5px;
 }
 .popup-search .search-inner .btn-submit{
-    position: absolute;
-    right: 0;
-    /* top: 50%; */
-    top: 0;
     width: 19px;
     height: 19px;
-    margin-top: -9px;
     background: url(../images/search/search.png) no-repeat center/19px auto;
 }
 .popup-search .btn-close{
